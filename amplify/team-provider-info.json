@@ -16,5 +16,23 @@
                 "amplifynotetaker73046053": {}
             }
         }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifynotetaker-dev-161731-authRole",
+            "UnauthRoleArn": "arn:aws:iam::196611413228:role/amplify-amplifynotetaker-dev-161731-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::196611413228:role/amplify-amplifynotetaker-dev-161731-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-amplifynotetaker-dev-161731-deployment",
+            "UnauthRoleName": "amplify-amplifynotetaker-dev-161731-unauthRole",
+            "StackName": "amplify-amplifynotetaker-dev-161731",
+            "StackId": "arn:aws:cloudformation:us-west-2:196611413228:stack/amplify-amplifynotetaker-dev-161731/c9a99c00-9389-11ea-b119-0a21b227ca7e",
+            "AmplifyAppId": "d1pi2hd7opu9w0"
+        },
+        "categories": {
+            "auth": {
+                "amplifynotetaker73046053": {}
+            }
+        }
     }
 }
