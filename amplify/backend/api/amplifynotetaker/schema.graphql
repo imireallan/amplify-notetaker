@@ -1,0 +1,13 @@
+# @model is a graphQL directive
+# this means that for our database that is going to be built
+# we want there to be a table in the DB dedicated specifically for this type
+
+type Note @model {
+  id: ID!
+  note: String!
+}
+
+
+# with aplify we don't have to write the root types Query and Mutations
+# amplify is going to assume we want all the basic CRUD opertations
+# it will automatic create queries for all the CRUD operations
